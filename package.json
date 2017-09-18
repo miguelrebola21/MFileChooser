@@ -1,0 +1,39 @@
+{
+  "name": "m-file-chooser",
+  "version": "1.0.0",
+  "description": "Cordova File Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "m-file-chooser",
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelrebola21/MFileChooser"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelrebola21/MFileChooser"
+  },
+  "keywords": [
+    "cordova",
+    "camera",
+    "file"
+  ],
+  "scripts": {
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+    "dmd-plugin-cordova-plugin": "^0.1.0"
+  }
+}
